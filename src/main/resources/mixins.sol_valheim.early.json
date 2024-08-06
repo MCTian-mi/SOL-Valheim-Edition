@@ -1,0 +1,19 @@
+{
+  "package": "vice.sol_valheim.mixin",
+  "refmap": "mixins.sol_valheim.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockCakeMixin",
+    "EntityLivingBaseMixin",
+    "EntityPlayerMixin",
+    "EntityPlayerMPMixin",
+    "EntityPlayerSPMixin",
+    "FoodStatsMixin",
+    "ItemFoodMixin",
+    "WorldServerMixin"
+  ],
+  "client": [],
+  "server": []
+}
